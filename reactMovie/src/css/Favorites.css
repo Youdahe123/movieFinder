@@ -1,0 +1,16 @@
+.favorites-page {
+  max-width: 1100px;
+  margin: 2rem auto;
+  background: rgba(24,24,24,0.95);
+  border-radius: 16px;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.7);
+  padding: 2.5rem 2rem;
+}
+
+.favorites-title {
+  color: #2196f3;
+  margin-bottom: 2rem;
+  font-size: 2.2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}

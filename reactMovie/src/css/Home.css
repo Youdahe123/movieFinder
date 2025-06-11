@@ -1,0 +1,51 @@
+.home {
+  max-width: 1200px;
+  margin: 2rem auto;
+}
+
+.search-form {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 2.5rem;
+  justify-content: center;
+}
+
+.search-input {
+  flex: 1;
+  min-width: 220px;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  background: #232323;
+  color: #fff;
+  outline: none;
+  transition: background 0.2s;
+}
+
+.search-input:focus {
+  background: #303030;
+}
+
+.Submit-form {
+  background: #2196f3;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.8rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  box-shadow: 0 2px 8px rgba(33,150,243,0.15);
+}
+
+.Submit-form:hover {
+  background: #1769aa;
+}
+
+.movies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2.2rem;
+}
